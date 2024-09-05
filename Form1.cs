@@ -82,7 +82,7 @@ namespace 计算器
                     '-' => a - b,
                     '*' => a * b,
                     '/' => a / b,
-                    _ => throw new InvalidOperationException("Unknown operation")
+                    _ => throw new InvalidOperationException("未知符号")
                 };
                 label1.Text = result.ToString();
             }
